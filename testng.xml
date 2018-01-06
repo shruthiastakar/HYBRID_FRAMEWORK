@@ -1,0 +1,17 @@
+<suite name="Suite">
+	<test name="Test">
+
+		<groups>
+			<run>
+				<include name="login" />
+			</run>
+		</groups>
+
+		<parameter name="browser" value="chrome" />
+
+		<packages>
+			<package name="script" />
+		</packages>
+
+	</test>
+</suite> 
